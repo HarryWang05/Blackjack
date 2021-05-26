@@ -1,0 +1,16 @@
+.center {
+    text-align: center;
+}
+.tableCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+.font {
+    font-size: large;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}

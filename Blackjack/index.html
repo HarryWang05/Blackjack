@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>BlackJack</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>BlackJack</h1>
+        <table>
+            <tr>
+                <td id="regret">Money: 1000</td>
+            </tr>
+            <tr>
+                <td>Place bet: <input type="text" id="placebet"></td>
+            </tr>
+            <tr>
+                <td>Insurance bet: None</td>
+            </tr>
+        </table>
+        <div id="ui" class="center">
+            <h2>Dealer's Cards</h2>
+            <div id="dcards" class="center"></div>
+            <div id="dtotallog" class="center"></div>
+            <h2>Your Cards</h2>
+            <div id="ycards" class="center"></div>
+            <div id="ytotallog" class="center"></div>
+        </div>
+        <div id="menu" class="center">
+            <button onclick='start()'>Start</button>
+        </div>
+        <div id="playertotal" class="center"></div>
+        <div id="winlose" class="center"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
